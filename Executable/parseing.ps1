@@ -1,6 +1,6 @@
 #Can be used for searching the address book to find someones ID
 
-$jsonFilePath = "Dump Files\Temp 1\Setting.json"
+$jsonFilePath = Read-Host "Please enter the file path (C:\Users\User\test.edpk)"
 $searchText = Read-Host "Enter a name"
 $previousLineNumbers = $null
 
